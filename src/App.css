@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Helvetica-Neue-med;
+  src: url("/font/HelveticaNeueHeavy.otf.otff");
+  
+}
+@font-face {
+  font-family: Helvetica-Neue-thin;
+  src: url("/font/HelveticaNeueRoman.otf");
+}
+@font-face {
+  font-family: arabic;
+  src: url("/font/KFGQPC Uthmanic Script HAFS Regular.otf");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica-Neue-thin";
+}
+:root {
+  --primary-colour: linear-gradient(to right, #3d8234, #275e1f);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footerWrapper {
+  background: url("/assets/Rectangle.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1360px) {
+  .footerWrapper {
+    background-position: right;
+    background-size: 100% 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footerWrapper {
+    background-position: right;
+    background-size: 100% 100%;
+  }
+}
+b{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.arabic-text h3{
+  font-family: "arabic";
+}

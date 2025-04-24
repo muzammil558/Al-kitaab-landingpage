@@ -1,0 +1,176 @@
+.flower {
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+}
+.flower #flower_img {
+  width: 250px;
+}
+.aboutUs-container {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4)),
+    url("/assets/aboutUsBg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  border-radius: 80px;
+  width: 80%;
+  margin: 180px auto auto auto;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  position: relative;
+  height: 600px;
+  background-color: white;
+}
+.aboutUs-Contant {
+  align-items: center;
+  margin: 50px;
+  flex: 3;
+}
+.aboutUs-Contant h1 {
+  margin: 40px 0;
+  margin-top: 80px;
+  font-size: 3rem;
+}
+.aboutUs-Contant p {
+  font-size: 1.45rem;
+}
+.aboutUs-img {
+  background-image: url("/assets/masjid.png");
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position: 0 90%;
+  flex: 2;
+}
+
+@media screen and (max-width: 1320px) {
+  .flower {
+    bottom: -40%;
+  }
+  .flower #flower_img {
+    width: 220px;
+  }
+  .aboutUs-Contant h1 {
+    margin-top: 60px;
+    font-size: 2.8rem;
+  }
+  .aboutUs-Contant p {
+    font-size: 1.3rem;
+  }
+  .flower {
+    bottom: -30%;
+  }
+  .flower #flower_img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .aboutUs-Contant h1 {
+    margin-top: 40px;
+    font-size: 2.7rem;
+  }
+  .aboutUs-Contant p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutUs-Contant h1 {
+    margin: 30px 0;
+    font-size: 2.6rem;
+  }
+  .aboutUs-Contant p {
+    font-size: 1.1rem;
+  }
+  .aboutUs-Contant {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flower {
+    bottom: -25%;
+  }
+  .flower #flower_img {
+    width: 150px;
+  }
+  .aboutUs-container {
+    margin: 300px auto auto auto;
+    flex-direction: column;
+    height: 650px;
+  }
+  .aboutUs-Contant {
+    /* height: 50% */
+    flex: 1;
+    width: 90%;
+    text-align: center;
+    margin: 40px;
+    margin-left: 30px;
+    padding: 20px;
+    height: 40%;
+  }
+  .aboutUs-Contant h1 {
+    margin: 15px 0;
+    font-size: 2rem;
+  }
+  .aboutUs-Contant p {
+    font-size: 1rem;
+  }
+  .aboutUs-img {
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flower {
+    bottom: -20%;
+  }
+  .flower #flower_img {
+    width: 130px;
+  }
+  .aboutUs-Contant {
+    margin: 40px;
+    margin-left: 20px;
+    height: 40%;
+  }
+  .aboutUs-Contant h1 {
+    margin: 15px 0;
+    margin-top: 0px;
+    font-size: 1.6rem;
+  }
+  .aboutUs-Contant p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .aboutUs-container{
+      border-radius: 50px;
+  }
+  .flower {
+    bottom: -15%;
+  }
+  .flower #flower_img {
+    width: 110px;
+  }
+  .aboutUs-Contant {
+    margin: 30px;
+    margin-left: 15px;
+    height: 40%;
+  }
+  .aboutUs-Contant h1 {
+    margin: 15px 0;
+    margin-top: -15px;
+    font-size: 1.5rem;
+  }
+  .aboutUs-Contant p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 350px){
+  .aboutUs-Contant p {
+    font-size: 0.7rem;
+  }
+}

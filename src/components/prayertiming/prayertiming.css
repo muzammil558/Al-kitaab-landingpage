@@ -1,0 +1,208 @@
+.prayer {
+  position: relative;
+}
+.prayerFlower {
+  position: absolute;
+  top: -335px;
+  z-index: -1;
+}
+.prayerFlower img {
+  width: 250px;
+}
+.pray-Container {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4)),
+    url("/assets/aboutUsBg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  border-radius: 80px;
+  width: 80%;
+  margin: 180px auto auto auto;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  position: relative;
+  height: 600px;
+  background-color: white;
+  justify-content: space-around;
+}
+.pray-content {
+  width: 60%;
+  margin: 40px;
+  margin-top: 140px;
+}
+.pray-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.pray-content p {
+  font-size: 1.45rem;
+  font-weight: 100;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.pray-content select {
+  width: 85%;
+  background: #f3f3f3;
+  border: 1px solid white;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.timing {
+  display: flex;
+  margin: 70px 0;
+  text-align: center;
+  gap: 50px;
+}
+.topic {
+  margin-bottom: 35px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.prayer-name {
+  display: flex;
+  padding: 5px 20px;
+  background-color: #f3f3f3;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 40px;
+  width: 150px;
+}
+.prayer-name img {
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  padding: 0px;
+}
+.prayer-name p {
+  margin-top: 5px;
+}
+.time {
+  justify-content: center;
+}
+
+@media screen and (max-width: 1420px) {
+  .pray-content {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pray-content {
+    margin-right: 0px;
+  }
+  .pray-content h1 {
+    font-size: 2.2rem;
+  }
+  .pray-content p {
+    font-size: 1.1rem;
+  }
+  .prayerFlower {
+    top: -300px;
+  }
+  .prayerFlower img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pray-content {
+    width: 50%;
+  }
+  .pray-content h1 {
+    font-size: 2rem;
+  }
+  .pray-content p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .pray-content {
+    width: 47%;
+  }
+  .pray-content h1 {
+    font-size: 2rem;
+  }
+  .pray-content p {
+    font-size: 1rem;
+  }
+  .prayer-name {
+    width: 130px;
+  }
+  .prayerFlower {
+    top: -300px;
+  }
+  .prayerFlower img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .pray-Container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .pray-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .timing {
+    margin-top: 10px;
+  }
+  .pray-content h1 {
+    font-size: 1.9rem;
+  }
+  .pray-content p {
+    font-size: 0.95rem;
+  }
+  .topic img {
+    width: 45px;
+  }
+  .topic h3 {
+    font-family: 1rem;
+  }
+  .name-container {
+    gap: 25px;
+  }
+  .prayerFlower {
+    top: -270px;
+  }
+  .prayerFlower img {
+    width: 170px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .pray-Container {
+   border-radius: 54px;
+  }
+  .timing {
+    gap: 20px;
+  }
+  .prayer-name {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 330px){
+  .timing {
+    gap: 8px;
+  }
+  .topic h3{
+    font-size: 0.85rem;
+  }
+  .prayer-name p{
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+  .prayer-name {
+    width: 100px;
+    padding: 5px 10px;
+  }
+}
